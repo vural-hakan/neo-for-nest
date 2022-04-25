@@ -1,0 +1,44 @@
+{
+  "name": "neo-for-nest",
+  "version": "1.0.1",
+  "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nestjs/common": "8.4.4",
+    "@nestjs/config": "2.0.0",
+    "@nestjs/core": "8.0.0",
+    "neo4j-driver": "4.4.5",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "8.2.5",
+    "@nestjs/schematics": "8.0.10",
+    "@types/express": "4.17.13",
+    "@types/node": "16.0.0",
+    "source-map-support": "0.5.20",
+    "ts-loader": "9.2.3",
+    "ts-node": "10.0.0",
+    "tsconfig-paths": "3.10.1",
+    "typescript": "4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vural-hakan/neo-for-nest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vural-hakan/neo-for-nest/issues"
+  },
+  "homepage": "https://github.com/vural-hakan/neo-for-nest#readme",
+  "keywords": [
+    "neo4j",
+    "nestjs",
+    "typescript"
+  ],
+  "author": "Hakan VURAL <hakanvural.dev@gmail.com>",
+  "license": "ISC"
+}
