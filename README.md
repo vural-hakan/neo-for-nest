@@ -25,7 +25,7 @@ Register the Neo4j Module in your application using the `forRoot` method, passin
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { Neo4jModule } from 'nest-neo4j'
+import { Neo4jModule } from 'neo-for-nest'
 
 @Module({
   imports: [
