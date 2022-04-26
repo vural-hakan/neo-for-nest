@@ -3,10 +3,8 @@
   "version": "1.0.3",
   "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>",
   "main": "dist/index.js",
-  "types": "dist/index.d.js",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build"
   },
   "dependencies": {
     "@nestjs/common": "8.4.4",

@@ -25,17 +25,24 @@ Register the Neo4j Module in your application using the `forRoot` method, passin
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { Neo4jModule } from 'neo-for-nest'
+import { Neo4jModule, Neo4jModule } from 'neo-for-nest'
 
 @Module({
   imports: [
-    Neo4jModule.forRoot({
-      scheme: 'neo4j',
-      host: 'localhost',
-      port: 7687,
-      username: 'neo4j',
-      password: 'neo4j'
-    })
+    Neo4jModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: () => {
+        return {
+          inject: [ConfigService],
+          scheme: 'neo4j',
+          host: 'localhost',
+          port: 7687,
+          username: 'neo4j',
+          password: 'neo4j',
+          //password: 'l1Ohm2LXEKWb0pKzKWWhLSO-lKfBu0s5kOBvdxIaq00',
+        } as Neo4jConfig;
+      },
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
