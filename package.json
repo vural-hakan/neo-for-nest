@@ -1,6 +1,6 @@
 {
   "name": "neo-for-nest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
