@@ -30,10 +30,6 @@
     "type": "git",
     "url": "git+https://github.com/vural-hakan/neo-for-nest.git"
   },
-  "bugs": {
-    "url": "https://github.com/vural-hakan/neo-for-nest/issues"
-  },
-  "homepage": "https://github.com/vural-hakan/neo-for-nest#readme",
   "keywords": [
     "neo4j",
     "nestjs",
